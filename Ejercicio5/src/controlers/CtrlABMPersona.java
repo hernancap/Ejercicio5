@@ -32,7 +32,7 @@ public class CtrlABMPersona {
 		return this.pers.get(this.pers.indexOf(p));
 		//return this.getByDni(p.getDni());
 	}
-	//este metodo deberia quitarse
+	//este metodo deberia quitarse prueba
 	public Persona getByDni(String dni){
 		Persona p=new Persona();
 		p.setDni(dni);
